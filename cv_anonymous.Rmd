@@ -1,16 +1,16 @@
 ---
-name: "Mehmet"
-surname: "Kutluay"
-position: "Data Scientist, PhD"
-address: "Amsterdam/Rotterdam - The Netherlands"
-phone: +31 685478120
-email: "mehkutluay@gmail.com"
-github: "YMehmetKutluay"
-linkedin: "mehmet-kutluay-phd"
+name: " "
+surname: "CV"
+position: " "
+address: " "
+phone:  
+email: " "
+github: " "
+linkedin: "disabled_link"
 date: "`r format(Sys.time(), '%B %Y')`"
 output: vitae::awesomecv
 ---
-
+  
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 library(vitae)
@@ -41,9 +41,9 @@ ING_fec <- c("Data Scientist", "ING Bank N.V. - Financial Crime Analytics", "Nov
 # Define information on Finance Analytics
 ING_finance <- c("Data Scientist", "ING Bank N.V. - Finance Analytics", "Feb 2018 - Nov 2019", "Amsterdam")
 # Define information on PhD
-phd <- c("PhD Researcher in Environmental Economics", "VU University Amsterdam", "Sep 2014 - Aug 2018", "Amsterdam")
+phd <- c("PhD Researcher in Environmental Economics", "A University in the Netherlands", "Sep 2014 - Aug 2018", "The Netherlands")
 # Define information on teaching assistant
-teaching_assistant <- c("Teaching Assistant", "VU University Amsterdam / Tinbergen Institute", "Sep 2013 - Feb 2018", "Amsterdam")
+teaching_assistant <- c("Teaching Assistant", "A University in the Netherlands", "Sep 2013 - Feb 2018", "The Netherlands")
 # Combine all information
 tribble(
   ~ role, ~ company, ~ dates, ~ loc, ~ details,
@@ -52,24 +52,24 @@ tribble(
   "Part of a big team of 20-25 FTE's that develop models to detect money laundering and other illegal financial activities",
   # ING finance
   ING_finance[1], ING_finance[2], ING_finance[3], ING_finance[4],
-    "Part of a small team of 2-3 FTE's that service employees in Group Finance via analytics projects",
+  "Part of a small team of 2-3 FTE's that service employees in Group Finance via analytics projects",
   ING_finance[1], ING_finance[2], ING_finance[3], ING_finance[4],
-    "Create R packages for time series forecasting, detecting/correcting anomalies and data exploration",
+  "Create R packages for time series forecasting, detecting/correcting anomalies and data exploration",
   ING_finance[1], ING_finance[2], ING_finance[3], ING_finance[4],
-    "Deploying projects via local and docker solutions",
+  "Deploying projects via local and docker solutions",
   ING_finance[1], ING_finance[2], ING_finance[3], ING_finance[4],
-    "Running workshops and trainings in R, Python and statistics",
+  "Running workshops and trainings in R, Python and statistics",
   ING_finance[1], ING_finance[2], ING_finance[3], ING_finance[4],
-    "Coaching IT trainees in data science work",
+  "Coaching IT trainees in data science work",
   ING_finance[1], ING_finance[2], ING_finance[3], ING_finance[4],
-    "Engaging stakeholders to help them become more data-savvy and understand what they can (and can't) do with data science",
+  "Engaging stakeholders to help them become more data-savvy and understand what they can (and can't) do with data science",
   # PhD
   phd[1], phd[2], phd[3], phd[4],
-    "Thesis title: 'The Value of (Avoiding) Malaria' (\\href{https://www.dropbox.com/s/0du7immzy1k14o1/PhD_Thesis.pdf?dl=0}{link}, graduated 2nd of May 2019)",
+  "Thesis title: 'The Value of (Avoiding) Malaria' (\\href{https://www.dropbox.com/s/0du7immzy1k14o1/PhD_Thesis.pdf?dl=0}{link}, graduated 2nd of May 2019)",
   phd[1], phd[2], phd[3], phd[4],
-    "Supervisors: Roy Brouwer \\& Richard Tol",
+  "Supervisors: Roy Brouwer \\& Richard Tol",
   phd[1], phd[2], phd[3], phd[4],
-    "Links to completed papers:
+  "Links to completed papers:
     \\begin{itemize}
     \\item Valuing malaria morbidity     (\\href{https://www.tandfonline.com/doi/full/10.1080/21606544.2019.1581094}{link})
     \\item Preference updating in public health risk valuation (\\href{https://www.researchgate.net/publication/320234394_Preference_updating_in_public_health_risk_valuation}{link})
@@ -77,11 +77,11 @@ tribble(
     \\item Attitudes towards public health spending (\\href{https://www.sussex.ac.uk/webteam/gateway/file.php?name=wps-07-2019.pdf&site=24}{link}) 
     \\end{itemize}",
   phd[1], phd[2], phd[3], phd[4],
-    "This was financed by an EU FP7 project: HELIX (\\href{https://www.helixclimate.eu/}{link}). This involved multidisciplinary collaboration with researchers from mathematics, physics, engineering, geography and sociology. I also organized and executed a field survey in Mumbai, India between March - June 2016 as part of this project.",
+  "This was financed by an EU FP7 project: HELIX (\\href{https://www.helixclimate.eu/}{link}). This involved multidisciplinary collaboration with researchers from mathematics, physics, engineering, geography and sociology. I also organized and executed a field survey in Mumbai, India between March - June 2016 as part of this project.",
   # Teaching assistant
   teaching_assistant[1], teaching_assistant[2], teaching_assistant[3], teaching_assistant[4],
-    "Courses: Statistics/Econometrics (masters level - including coding in SPSS and R), Mathematics (masters level - linear algebra and advanced calculus)"
-  ) %>% 
+  "Courses: Statistics/Econometrics (masters level - including coding in SPSS and R), Mathematics (masters level - linear algebra and advanced calculus)"
+) %>% 
   detailed_entries(role, loc, company, dates, details, .protect = F)
 ```
 
@@ -89,20 +89,20 @@ tribble(
 
 ```{r}
 # Define information on Master
-MSc_info <- c("MPhil in Economics", "Tinbergen Institute", "Amsterdam/Rotterdam, The Netherlands","Sep 2012 - Aug 2014")
+MSc_info <- c("MPhil in Economics", "A University in the Netherlands", "A University in the Netherlands","Sep 2012 - Aug 2014")
 # Define information on Bachelor
-BSc_info <- c("BSc in Economics", "Bilkent University", "Ankara, Turkey", "Sep 2008 - Jun 2012")
+BSc_info <- c("BSc in Economics", "A University in Turkey", "A University in Turkey", "Sep 2008 - Jun 2012")
 # Combine all information
 tribble(
-    ~ degree, ~ uni, ~ loc, ~ dates, ~ details,
-    # MSc
-    MSc_info[1], MSc_info[2], MSc_info[3], MSc_info[4], 
-      "Specialization: Applied micro-econometrics",
-    MSc_info[1], MSc_info[2], MSc_info[3], MSc_info[4], 
-      "Thesis: 'What explains willingness to pay for avoiding morbidity risk due to malaria? Results from a global meta-analysis' (later on became first chapter of PhD thesis)",
-    # BSc
-    BSc_info[1], BSc_info[2], BSc_info[3], BSc_info[4], 
-      "Specialization: Academic (i.e. a special focus on applied mathematics and statistics)"
-  ) %>% 
+  ~ degree, ~ uni, ~ loc, ~ dates, ~ details,
+  # MSc
+  MSc_info[1], MSc_info[2], MSc_info[3], MSc_info[4], 
+  "Specialization: Applied micro-econometrics",
+  MSc_info[1], MSc_info[2], MSc_info[3], MSc_info[4], 
+  "Thesis: 'What explains willingness to pay for avoiding morbidity risk due to malaria? Results from a global meta-analysis' (later on became first chapter of PhD thesis)",
+  # BSc
+  BSc_info[1], BSc_info[2], BSc_info[3], BSc_info[4], 
+  "Specialization: Academic (i.e. a special focus on applied mathematics and statistics)"
+) %>% 
   detailed_entries(degree, uni, loc, dates, details)
 ```
