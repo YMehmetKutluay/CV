@@ -21,17 +21,14 @@ library(tibble)
 
 ## Data Science
 
-* Time Series Data, Cross-Sectional Data, Anomaly Detection, Data Visualization, Data Wrangling, Dashboarding
+* Time Series Data, Cross-Sectional Data, Networks, Anomaly Detection, Data Visualization, Data Wrangling, Dashboarding
 
 ## Languages
 
-* Statistics/Data Science: R, Stata (both advanced), Python, Matlab, SPSS, Eviews
+* Statistics/Data Science: R, Python, Matlab, Stata
 
 * Other: Latex, Microsoft Office, Markdown
 
-## Applications
-
-* RStudio, Spyder, Jupyter Notebook, Git Bash, Notepad++, SAS EG
 
 # Experience
 
@@ -50,6 +47,8 @@ tribble(
   # ING FEC
   ING_fec[1], ING_fec[2], ING_fec[3], ING_fec[4],
   "Part of a big team of 20-25 FTE's that develop models to detect money laundering and other illegal financial activities",
+  ING_fec[1], ING_fec[2], ING_fec[3], ING_fec[4],
+  "Creating two Python packages for: 1. streamlined unsupervised anomaly detection and 2. extracting network features from transaction data",
   # ING finance
   ING_finance[1], ING_finance[2], ING_finance[3], ING_finance[4],
     "Part of a small team of 2-3 FTE's that service employees in Group Finance via analytics projects",
