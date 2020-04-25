@@ -21,7 +21,7 @@ library(tibble)
 
 ## Data Science
 
-* Time Series Data, Cross-Sectional Data, Networks, Anomaly Detection, Data Visualization, Data Wrangling, Dashboarding
+* Time Series Data, Cross-Sectional Data, Networks, Anomaly Detection, Data Visualization, Data Wrangling, Dashboarding, Docker, Spark
 
 ## Languages
 
@@ -49,11 +49,15 @@ tribble(
   "Part of a big team of 20-25 FTE's that develop models to detect money laundering and other illegal financial activities",
   ING_fec[1], ING_fec[2], ING_fec[3], ING_fec[4],
   "Creating two Python packages for: 1. streamlined unsupervised anomaly detection and 2. extracting network features from transaction data",
+  ING_fec[1], ING_fec[2], ING_fec[3], ING_fec[4],
+  "Involved in creating a containerized, exportable product that helps detect smurfing transactions",
   # ING finance
   ING_finance[1], ING_finance[2], ING_finance[3], ING_finance[4],
     "Part of a small team of 2-3 FTE's that service employees in Group Finance via analytics projects",
   ING_finance[1], ING_finance[2], ING_finance[3], ING_finance[4],
-    "Create R packages for time series forecasting, detecting/correcting anomalies and data exploration",
+    "Created three R packages for time series forecasting, detecting/correcting anomalies and data exploration",
+  ING_finance[1], ING_finance[2], ING_finance[3], ING_finance[4],
+    "These R packages are currently open sourced and maintained by me. Click for \\href{https://github.com/ing-bank/tstools}{tstools}, \\href{https://github.com/ing-bank/tsclean}{tsclean}, \\href{https://github.com/ing-bank/tsforecast}{tsforecast}",
   ING_finance[1], ING_finance[2], ING_finance[3], ING_finance[4],
     "Deploying projects via local and docker solutions",
   ING_finance[1], ING_finance[2], ING_finance[3], ING_finance[4],
