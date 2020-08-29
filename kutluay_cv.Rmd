@@ -23,9 +23,9 @@ library(tibble)
 
 * Time Series Data, Cross-Sectional Data, Networks, Anomaly Detection, Data Visualization, Data Wrangling, Dashboarding, Docker, Spark
 
-## Coding Languages
+## Languages
 
-* Statistics/Data Science: R, Python, Matlab
+* Statistics/Data Science: R, Python, Matlab, Stata
 
 * Other: Latex, Microsoft Office, Markdown
 
@@ -46,13 +46,11 @@ tribble(
   ~ role, ~ company, ~ dates, ~ loc, ~ details,
   # ING FEC
   ING_fec[1], ING_fec[2], ING_fec[3], ING_fec[4],
-  "Part of a big team of 40-45 FTE's that develop models to detect money laundering and other illegal financial activities",
+  "Part of a big team of 20-25 FTE's that develop models to detect money laundering and other illegal financial activities",
   ING_fec[1], ING_fec[2], ING_fec[3], ING_fec[4],
-  "Creating two containerized (via Docker) Python packages for: 1. streamlined unsupervised anomaly detection and 2. extracting network features from transaction data",
+  "Creating two Python packages for: 1. streamlined unsupervised anomaly detection and 2. extracting network features from transaction data",
   ING_fec[1], ING_fec[2], ING_fec[3], ING_fec[4],
-  "Both Python packages are used across multiple projects within and outside the department",
-  ING_fec[1], ING_fec[2], ING_fec[3], ING_fec[4],
-  "Running workshops on day-to-day usage of Docker",
+  "Involved in creating a containerized, exportable product that helps detect smurfing transactions",
   # ING finance
   ING_finance[1], ING_finance[2], ING_finance[3], ING_finance[4],
     "Part of a small team of 2-3 FTE's that service employees in Group Finance via analytics projects",
@@ -61,9 +59,11 @@ tribble(
   ING_finance[1], ING_finance[2], ING_finance[3], ING_finance[4],
     "These R packages are currently open sourced and maintained by me. Click for \\href{https://github.com/ing-bank/tstools}{tstools}, \\href{https://github.com/ing-bank/tsclean}{tsclean}, \\href{https://github.com/ing-bank/tsforecast}{tsforecast}",
   ING_finance[1], ING_finance[2], ING_finance[3], ING_finance[4],
+    "Deploying projects via local and docker solutions",
+  ING_finance[1], ING_finance[2], ING_finance[3], ING_finance[4],
     "Running workshops and trainings in R, Python and statistics",
   ING_finance[1], ING_finance[2], ING_finance[3], ING_finance[4],
-    "Coaching trainees and interns in data science work",
+    "Coaching IT trainees in data science work",
   ING_finance[1], ING_finance[2], ING_finance[3], ING_finance[4],
     "Engaging stakeholders to help them become more data-savvy and understand what they can (and can't) do with data science",
   # PhD
