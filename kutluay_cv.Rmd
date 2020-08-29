@@ -1,7 +1,7 @@
 ---
 name: "Mehmet"
 surname: "Kutluay"
-position: "Data Scientist, PhD"
+position: "Data Scientist"
 address: "Amsterdam/Rotterdam - The Netherlands"
 phone: +31 685478120
 email: "mehkutluay@gmail.com"
@@ -50,14 +50,18 @@ tribble(
   ING_fec[1], ING_fec[2], ING_fec[3], ING_fec[4],
   "Creating two Python packages for: 1. streamlined unsupervised anomaly detection and 2. extracting network features from transaction data",
   ING_fec[1], ING_fec[2], ING_fec[3], ING_fec[4],
-  "Involved in creating a containerized, exportable product that helps detect smurfing transactions",
+  "Communicating with other end-users of the Python packages for further development",
+  ING_fec[1], ING_fec[2], ING_fec[3], ING_fec[4],
+  "Running workshops on day-to-day usage of Docker",
+  ING_fec[1], ING_fec[2], ING_fec[3], ING_fec[4],
+  "Coaching trainees in data science work",
   # ING finance
   ING_finance[1], ING_finance[2], ING_finance[3], ING_finance[4],
-    "Part of a small team of 2-3 FTE's that service employees in Group Finance via analytics projects",
+    "Part of a small team of 2-3 FTE's that service employees in Group Finance through analytics projects. All projects are centered around time series data cleaning, wrangling and forecasting",
   ING_finance[1], ING_finance[2], ING_finance[3], ING_finance[4],
     "Created three R packages for time series forecasting, detecting/correcting anomalies and data exploration",
   ING_finance[1], ING_finance[2], ING_finance[3], ING_finance[4],
-    "These R packages are currently open sourced and maintained by me. Click for \\href{https://github.com/ing-bank/tstools}{tstools}, \\href{https://github.com/ing-bank/tsclean}{tsclean}, \\href{https://github.com/ing-bank/tsforecast}{tsforecast}",
+    "These R packages are open sourced and maintained by me. Click for \\href{https://github.com/ing-bank/tstools}{tstools}, \\href{https://github.com/ing-bank/tsclean}{tsclean}, \\href{https://github.com/ing-bank/tsforecast}{tsforecast}",
   ING_finance[1], ING_finance[2], ING_finance[3], ING_finance[4],
     "Deploying projects via local and docker solutions",
   ING_finance[1], ING_finance[2], ING_finance[3], ING_finance[4],
@@ -80,7 +84,7 @@ tribble(
     \\item Attitudes towards public health spending (\\href{https://www.sussex.ac.uk/webteam/gateway/file.php?name=wps-07-2019.pdf&site=24}{link}) 
     \\end{itemize}",
   phd[1], phd[2], phd[3], phd[4],
-    "This was financed by an EU FP7 project: HELIX (\\href{https://www.helixclimate.eu/}{link}). This involved multidisciplinary collaboration with researchers from mathematics, physics, engineering, geography and sociology. I also organized and executed a field survey in Mumbai, India between March - June 2016 as part of this project.",
+    "This was financed by an EU FP7 project: HELIX (\\href{https://www.helixclimate.eu/}{link}). This involved multidisciplinary collaboration with researchers from mathematics, physics, engineering, geography and sociology. I organized and executed a field survey in Mumbai, India between March - June 2016 as part of this project. Some analyses of the data from this survey can be found on my GitHub page.",
   # Teaching assistant
   teaching_assistant[1], teaching_assistant[2], teaching_assistant[3], teaching_assistant[4],
     "Courses: Statistics/Econometrics (masters level - including coding in SPSS and R), Mathematics (masters level - linear algebra and advanced calculus)"
