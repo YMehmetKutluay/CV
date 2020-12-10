@@ -21,7 +21,7 @@ library(tibble)
 
 ## Data Science
 
-* Time Series Data, Cross-Sectional Data, Networks, Anomaly Detection, Data Visualization, Data Wrangling, Dashboarding, Docker, Spark
+* Time Series Forecasting, Cross-Sectional Prediction, Networks, Anomaly Detection, Data Visualization, Data Wrangling, Dashboarding, Docker, Spark
 
 ## Languages
 
@@ -50,6 +50,8 @@ tribble(
   ING_fec[1], ING_fec[2], ING_fec[3], ING_fec[4],
   "Creating two Python packages for: 1. streamlined unsupervised anomaly detection and 2. extracting network features from transaction data",
   ING_fec[1], ING_fec[2], ING_fec[3], ING_fec[4],
+  "Main machine learning domain: unsupervised anomaly detection (e.g. isolation forest, k-means, outlier variational autoencoder)",
+  ING_fec[1], ING_fec[2], ING_fec[3], ING_fec[4],
   "Communicating with other end-users of the Python packages for further development",
   ING_fec[1], ING_fec[2], ING_fec[3], ING_fec[4],
   "Running workshops on day-to-day usage of Docker",
@@ -62,6 +64,8 @@ tribble(
     "Created three R packages for time series forecasting, detecting/correcting anomalies and data exploration",
   ING_finance[1], ING_finance[2], ING_finance[3], ING_finance[4],
     "These R packages are open sourced and maintained by me. Click for \\href{https://github.com/ing-bank/tstools}{tstools}, \\href{https://github.com/ing-bank/tsclean}{tsclean}, \\href{https://github.com/ing-bank/tsforecast}{tsforecast}",
+  ING_finance[1], ING_finance[2], ING_finance[3], ING_finance[4],
+    "Main machine learning domain: time series forecasting (ARIMA, LSTM, Kalman filter",
   ING_finance[1], ING_finance[2], ING_finance[3], ING_finance[4],
     "Deploying projects via local and docker solutions",
   ING_finance[1], ING_finance[2], ING_finance[3], ING_finance[4],
