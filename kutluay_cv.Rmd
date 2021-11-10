@@ -1,7 +1,7 @@
 ---
 name: "Mehmet"
 surname: "Kutluay"
-position: "Data Scientist"
+position: "Senior Data Scientist"
 address: "Amsterdam/Rotterdam - The Netherlands"
 phone: +31 685478120
 email: "mehkutluay@gmail.com"
@@ -21,20 +21,22 @@ library(tibble)
 
 ## Data Science
 
-* Time Series Forecasting, Cross-Sectional Prediction, Networks, Anomaly Detection, Data Visualization, Data Wrangling, Dashboarding, Docker, Spark
+* Network Analytics, Anomaly Detection, Docker, Spark, Time Series Forecasting, Cross-Sectional Prediction,  Data Visualization, Data Wrangling, Dashboarding
 
 ## Languages
 
-* Statistics/Data Science: R, Python, Matlab, Stata
+* Statistics/Data Science: Python, R, Matlab
 
-* Other: Latex, Microsoft Office, Markdown
+* Other:Markdown,Latex, Microsoft Office
 
 
 # Experience
 
 ```{r}
+# Define information on TMNL
+TMNL <- c("Senior Data Scientist", "Transactie Monitoring Nederland", "May 2021 - Present", "Purmerend")
 # Define information on FEC
-ING_fec <- c("Data Scientist", "ING Bank N.V. - Financial Crime Analytics", "Nov 2019 - present", "Amsterdam")
+ING_fec <- c("Data Scientist", "ING Bank N.V. - Financial Crime Analytics", "Nov 2019 - May 2021", "Amsterdam")
 # Define information on Finance Analytics
 ING_finance <- c("Data Scientist", "ING Bank N.V. - Finance Analytics", "Feb 2018 - Nov 2019", "Amsterdam")
 # Define information on PhD
@@ -44,6 +46,15 @@ teaching_assistant <- c("Teaching Assistant", "VU University Amsterdam / Tinberg
 # Combine all information
 tribble(
   ~ role, ~ company, ~ dates, ~ loc, ~ details,
+  # TMNL
+  TMNL[1], TMNL[2], TMNL[3], TMNL[4],
+  "Part of the Analytics team, consisting of data scientists and anti-money laundering experts",
+  TMNL[1], TMNL[2], TMNL[3], TMNL[4],
+  "Working on two Python packages for network analytics projects: 1. batch network traversals and 2. community detection",
+  TMNL[1], TMNL[2], TMNL[3], TMNL[4],
+  "Main linking pin between the engineering teams and Analytics to ensure a workable framework for model development",
+  TMNL[1], TMNL[2], TMNL[3], TMNL[4],
+  "Mentoring other data scientists and finding ways to enable anti-money laundering experts to be integrated into analytics projects",
   # ING FEC
   ING_fec[1], ING_fec[2], ING_fec[3], ING_fec[4],
   "Part of a big team of 20-25 FTE's that develop models to detect money laundering and other illegal financial activities",
