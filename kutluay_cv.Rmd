@@ -21,24 +21,26 @@ library(tibble)
 
 ## Data Science
 
-* Network Analytics, Anomaly Detection, Docker, Spark, Time Series Forecasting, Cross-Sectional Prediction,  Data Visualization, Data Wrangling, Dashboarding
+* Network Analytics, Anomaly Detection, Docker, Spark, Time Series Forecasting, Cross-Sectional Prediction,  Data Visualization, Data Wrangling
 
 ## Languages
 
-* Statistics/Data Science: Python, R, Matlab
+* Statistics/Data Science: Python, R, SQL, Matlab
 
-* Other:Markdown,Latex, Microsoft Office
+* Other: Markdown, Microsoft Office
 
 
 # Experience
 
 ```{r}
+# Define information on Apollo Agriculture
+Apollo <- c("Senior Data Scientist", "Apollo Agriculture", "May 2022 - Present", "Amsterdam")
 # Define information on TMNL
-TMNL <- c("Senior Data Scientist", "Transactie Monitoring Nederland", "May 2021 - Present", "Purmerend")
+TMNL <- c("Senior Data Scientist", "Transactie Monitoring Nederland", "May 2021 - April 2022", "Purmerend")
 # Define information on FEC
-ING_fec <- c("Data Scientist", "ING Bank N.V. - Financial Crime Analytics", "Nov 2019 - May 2021", "Amsterdam")
+ING_fec <- c("Data Scientist", "ING Bank N.V. - Financial Crime Analytics", "Nov 2019 - April 2021", "Amsterdam")
 # Define information on Finance Analytics
-ING_finance <- c("Data Scientist", "ING Bank N.V. - Finance Analytics", "Feb 2018 - Nov 2019", "Amsterdam")
+ING_finance <- c("Data Scientist", "ING Bank N.V. - Finance Analytics", "Feb 2018 - Oct 2019", "Amsterdam")
 # Define information on PhD
 phd <- c("PhD Researcher in Environmental Economics", "VU University Amsterdam", "Sep 2014 - Aug 2018", "Amsterdam")
 # Define information on teaching assistant
@@ -46,17 +48,24 @@ teaching_assistant <- c("Teaching Assistant", "VU University Amsterdam / Tinberg
 # Combine all information
 tribble(
   ~ role, ~ company, ~ dates, ~ loc, ~ details,
+  # Apollo
+  Apollo[1], Apollo[2], Apollo[3], Apollo[4],
+  "In a small team (4-5 FTE's) of only data scientists, working on multiple projects with different stakeholders. Currently these are fraud detection and credit risk scoring",
+  Apollo[1], Apollo[2], Apollo[3], Apollo[4],
+  "Helping set up the way-of-working framework (Docker for local development, setting coding standards, creating/maintaining Python microservices etc.)",
+  Apollo[1], Apollo[2], Apollo[3], Apollo[4],
+  "Mentoring junior and medior data scientist",
   # TMNL
   TMNL[1], TMNL[2], TMNL[3], TMNL[4],
-  "Part of the Analytics team, consisting of data scientists and anti-money laundering experts",
+  "In multifunctional department, consisting of data scientists and anti-money laundering experts",
   TMNL[1], TMNL[2], TMNL[3], TMNL[4],
-  "Working on two Python packages for network analytics projects: 1. efficient network traversals and 2. detecting communities within networks",
+  "Created/maintained two Python packages for network analytics projects: 1. efficient network traversals and 2. detecting communities within networks",
   TMNL[1], TMNL[2], TMNL[3], TMNL[4],
-  "Main linking pin between the engineering teams and Analytics to ensure a workable framework for model development",
+  "Main linking pin with engineering teams to ensure a workable framework for model development",
   TMNL[1], TMNL[2], TMNL[3], TMNL[4],
-  "Mentoring other data scientists and finding ways to enable anti-money laundering experts to be integrated into analytics projects",
+  "Mentoring other data scientists and integrating anti-money laundering experts actively into analytics projects",
   TMNL[1], TMNL[2], TMNL[3], TMNL[4],
-  "Participating in high-level discussions on day-to-day and strategic topics regarding the Analytics team",
+  "Participating in high-level discussions on day-to-day and strategic topics",
   # ING FEC
   ING_fec[1], ING_fec[2], ING_fec[3], ING_fec[4],
   "Part of a big team of 20-25 FTE's that develop models to detect money laundering and other illegal financial activities",
