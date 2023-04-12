@@ -50,7 +50,9 @@ tribble(
   ~ role, ~ company, ~ dates, ~ loc, ~ details,
   # Apollo
   Apollo[1], Apollo[2], Apollo[3], Apollo[4],
-  "In a small team (4-5 FTE's) of only data scientists, working on multiple projects with different stakeholders. Currently these are fraud detection, credit risk scoring and satellite database creation",
+  "In a small team (4-5 FTE's) of only data scientists, working on multiple projects with different stakeholders. These are fraud detection, credit risk scoring and satellite database creation",
+  Apollo[1], Apollo[2], Apollo[3], Apollo[4],
+  "Launched and monitored multiple models in production - both batch processes and real-time applications",
   Apollo[1], Apollo[2], Apollo[3], Apollo[4],
   "Helping set up the way-of-working framework (Docker for local development, setting coding standards, creating/maintaining Python microservices etc.)",
   Apollo[1], Apollo[2], Apollo[3], Apollo[4],
