@@ -21,7 +21,7 @@ library(tibble)
 
 ## Data Science
 
-* Network Analytics, Anomaly Detection, Docker, Spark, Time Series Forecasting, Cross-Sectional Prediction,  Data Visualization, Data Wrangling
+* Network Analytics, Anomaly Detection, Docker, Spark, Time Series Forecasting, Cross-Sectional Prediction,  Data Visualization, ETL, Remote Sensing
 
 ## Languages
 
@@ -50,7 +50,7 @@ tribble(
   ~ role, ~ company, ~ dates, ~ loc, ~ details,
   # Apollo
   Apollo[1], Apollo[2], Apollo[3], Apollo[4],
-  "In a small team (4-5 FTE's) of only data scientists, working on multiple projects with different stakeholders. Currently these are fraud detection and credit risk scoring",
+  "In a small team (4-5 FTE's) of only data scientists, working on multiple projects with different stakeholders. Currently these are fraud detection, credit risk scoring and satellite database creation",
   Apollo[1], Apollo[2], Apollo[3], Apollo[4],
   "Helping set up the way-of-working framework (Docker for local development, setting coding standards, creating/maintaining Python microservices etc.)",
   Apollo[1], Apollo[2], Apollo[3], Apollo[4],
