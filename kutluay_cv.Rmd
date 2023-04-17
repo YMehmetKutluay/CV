@@ -2,7 +2,7 @@
 name: "Mehmet"
 surname: "Kutluay"
 position: "Senior Data Scientist"
-address: "Amsterdam/Rotterdam - The Netherlands"
+address: "Rotterdam - The Netherlands"
 phone: +31 685478120
 email: "mehkutluay@gmail.com"
 github: "YMehmetKutluay"
@@ -50,7 +50,7 @@ tribble(
   ~ role, ~ company, ~ dates, ~ loc, ~ details,
   # Apollo
   Apollo[1], Apollo[2], Apollo[3], Apollo[4],
-  "In a small team (4-5 FTE's) of only data scientists, working on multiple projects with different stakeholders. These are fraud detection, credit risk scoring and satellite database creation",
+  "In a small team (4-5 FTE's) of data scientists, working on multiple projects with different stakeholders. These are fraud detection, credit risk scoring and satellite image database creation. Infrastructure environment: AWS",
   Apollo[1], Apollo[2], Apollo[3], Apollo[4],
   "Launched and monitored multiple models in production - both batch processes and real-time applications",
   Apollo[1], Apollo[2], Apollo[3], Apollo[4],
@@ -61,7 +61,7 @@ tribble(
   TMNL[1], TMNL[2], TMNL[3], TMNL[4],
   "In multifunctional department, consisting of data scientists and anti-money laundering experts",
   TMNL[1], TMNL[2], TMNL[3], TMNL[4],
-  "Created/maintained two Python packages for network analytics projects: 1. efficient network traversals and 2. detecting communities within networks",
+  "Created/maintained two Python packages for network analytics projects: 1. efficient network traversals and 2. detecting communities within networks. Infrastructure environment: AWS",
   TMNL[1], TMNL[2], TMNL[3], TMNL[4],
   "Main linking pin with engineering teams to ensure a workable framework for model development",
   TMNL[1], TMNL[2], TMNL[3], TMNL[4],
@@ -72,7 +72,7 @@ tribble(
   ING_fec[1], ING_fec[2], ING_fec[3], ING_fec[4],
   "Part of a big team of 20-25 FTE's that develop models to detect money laundering and other illegal financial activities",
   ING_fec[1], ING_fec[2], ING_fec[3], ING_fec[4],
-  "Creating two Python packages for: 1. streamlined unsupervised anomaly detection and 2. extracting network features from transaction data",
+  "Creating two Python packages for: 1. streamlined unsupervised anomaly detection and 2. extracting network features from transaction data Infrastructure environment: in-house clusters.",
   ING_fec[1], ING_fec[2], ING_fec[3], ING_fec[4],
   "Main machine learning domain: unsupervised anomaly detection (e.g. isolation forest, k-means, outlier variational autoencoder)",
   ING_fec[1], ING_fec[2], ING_fec[3], ING_fec[4],
@@ -83,7 +83,7 @@ tribble(
   "Coaching trainees in data science work",
   # ING finance
   ING_finance[1], ING_finance[2], ING_finance[3], ING_finance[4],
-    "Part of a small team of 2-3 FTE's that service employees in Group Finance through analytics projects. All projects are centered around time series data cleaning, wrangling and forecasting",
+    "Part of a small team of 2-3 FTE's that service employees in Group Finance through analytics projects. All projects are centered around time series data cleaning, wrangling and forecasting. Infrastructure environment: in-house clusters",
   ING_finance[1], ING_finance[2], ING_finance[3], ING_finance[4],
     "Created three R packages for time series forecasting, detecting/correcting anomalies and data exploration",
   ING_finance[1], ING_finance[2], ING_finance[3], ING_finance[4],
