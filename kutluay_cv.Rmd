@@ -34,7 +34,7 @@ library(tibble)
 
 ```{r}
 # Define information on Apollo Agriculture
-Apollo <- c("Senior Data Scientist", "Apollo Agriculture", "May 2022 - Present", "Amsterdam")
+Apollo <- c("Senior Data Scientist", "Apollo Agriculture", "May 2022 - April 2023", "Amsterdam")
 # Define information on TMNL
 TMNL <- c("Senior Data Scientist", "Transactie Monitoring Nederland", "May 2021 - April 2022", "Purmerend")
 # Define information on FEC
