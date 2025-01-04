@@ -21,14 +21,13 @@ library(tibble)
 
 ## Data Science
 
-* Network Analytics, Anomaly Detection, Docker, Spark, Time Series Forecasting, Cross-Sectional Prediction,  Data Visualization, ETL, Remote Sensing
+* Network Analytics, Anomaly Detection, Spark, Time Series Forecasting, Cross-Sectional Prediction,  Data Visualization, ETL, Remote Sensing
 
 ## Languages
 
 * Statistics/Data Science: Python, R, SQL, Matlab
-
+* Engineering: Bash, Docker, Terraform
 * Other: Markdown, Microsoft Office
-
 
 # Experience
 
