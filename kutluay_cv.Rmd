@@ -23,17 +23,23 @@ library(tibble)
 
 * Network Analytics, Anomaly Detection, Spark, Time Series Forecasting, Cross-Sectional Prediction,  Data Visualization, ETL, Remote Sensing
 
-## Languages
+## Syntax and Programming
 
 * Statistics/Data Science: Python, R, SQL, Matlab
 * Engineering: Bash, Docker, Terraform
 * Other: Markdown, Microsoft Office
 
+## Languages
+
+* Turkish: Native
+* English: Fluent, Business Proficient
+* Dutch: Fluent
+
 # Experience
 
 ```{r}
 # Define information on Knab
-Knab <- c("Lead Data Scientist", "Knab", "August 2023 - Present", "Amsterdam")
+Knab <- c("Lead Data Scientist", "Knab", "August 2023 - July 2025", "Amsterdam")
 # Define information on Apollo Agriculture
 Apollo <- c("Senior Data Scientist", "Apollo Agriculture", "May 2022 - April 2023", "Amsterdam")
 # Define information on TMNL
@@ -51,13 +57,13 @@ tribble(
   ~ role, ~ company, ~ dates, ~ loc, ~ details,
   # Knab
   Knab[1], Knab[2], Knab[3], Knab[4],
-  "Initially joined as senior data scientist, working as lead data scientist since March 2024.",
+  "Initially joined as senior data scientist, worked as lead data scientist from March 2024.",
   Knab[1], Knab[2], Knab[3], Knab[4],
-  "Leading a team of 6-7 data scientists, while also working on model development and productionization.",
+  "Lead a team of 6-7 data scientists, and also worked on model development and productionization.",
   Knab[1], Knab[2], Knab[3], Knab[4],
-  "Deployed first machine learning models for the bank. Currently working with different senior stakeholders in the bank (including data engineering and model risk management) to make this process smoother",
+  "Deployed first machine learning models for the bank, mainly within the KYC sphere. Set up and developed the governance and technical framework for deploying more models. This was in collaboration with many parties (data engineering, data governance, business stakeholders and model risk management).",
   Knab[1], Knab[2], Knab[3], Knab[4],
-  "Responsible for moulding and executing the ML / AI strategy of Knab, as well as mentoring other data scientists and leading by example.",
+  "Was responsible for moulding and executing the ML / AI strategy of Knab, as well as mentoring other data scientists and leading by example.",
   # Apollo
   Apollo[1], Apollo[2], Apollo[3], Apollo[4],
   "In a small team (4-5 FTE's) of data scientists, working on multiple projects with different stakeholders. These are fraud detection, credit risk scoring and satellite image database creation. Infrastructure environment: AWS",
