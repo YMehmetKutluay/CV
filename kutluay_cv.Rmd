@@ -61,7 +61,9 @@ tribble(
   Sam[1], Sam[2], Sam[3], Sam[4],
   "Heading the central data team of 4-5 FTE's consisting of data analysts and data engineers.",
   Sam[1], Sam[2], Sam[3], Sam[4],
-  "Building the data strategy from scratch and implementing governance. Strong focus on making the data team a business partner to key projects and teams in the company.",
+  "Guiding data product development, coordinating team members across different squads and setting priorities.",
+  Sam[1], Sam[2], Sam[3], Sam[4],
+  "Providing soft skills mentorship and guidance to team members.",
   # Knab
   Knab[1], Knab[2], Knab[3], Knab[4],
   "Initially joined as senior data scientist, worked as lead data scientist from March 2024.",
