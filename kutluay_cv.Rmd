@@ -38,6 +38,8 @@ library(tibble)
 # Experience
 
 ```{r}
+# Define information on Sam Media
+Sam <- c("Head of Data", "Sam Media", "September 2025 - Present", "Amsterdam")
 # Define information on Knab
 Knab <- c("Lead Data Scientist", "Knab", "August 2023 - July 2025", "Amsterdam")
 # Define information on Apollo Agriculture
@@ -55,6 +57,13 @@ teaching_assistant <- c("Teaching Assistant", "VU University Amsterdam / Tinberg
 # Combine all information
 tribble(
   ~ role, ~ company, ~ dates, ~ loc, ~ details,
+  # Sam Media
+  Sam[1], Sam[2], Sam[3], Sam[4],
+  "Heading the central data team of 4-5 FTE's consisting of data analysts and data engineers.",
+  Sam[1], Sam[2], Sam[3], Sam[4],
+  "Guiding data product development, coordinating team members across different squads and setting priorities.",
+  Sam[1], Sam[2], Sam[3], Sam[4],
+  "Providing soft skills mentorship and guidance to team members.",
   # Knab
   Knab[1], Knab[2], Knab[3], Knab[4],
   "Initially joined as senior data scientist, worked as lead data scientist from March 2024.",
