@@ -33,13 +33,15 @@ library(tibble)
 
 * Turkish: Native
 * English: Fluent, Business Proficient
-* Dutch: Fluent
+* Dutch: Fluent, Business Proficient
 
 # Experience
 
 ```{r}
+# Define information on Zanders
+Zanders <- c("Data Science Manager", "Zanders", "April 2026 - Present", "Utrecht")
 # Define information on Sam Media
-Sam <- c("Head of Data", "Sam Media", "September 2025 - Present", "Amsterdam")
+Sam <- c("Head of Data", "Sam Media", "September 2025 - April 2026", "Amsterdam")
 # Define information on Knab
 Knab <- c("Lead Data Scientist", "Knab", "August 2023 - July 2025", "Amsterdam")
 # Define information on Apollo Agriculture
@@ -57,87 +59,83 @@ teaching_assistant <- c("Teaching Assistant", "VU University Amsterdam / Tinberg
 # Combine all information
 tribble(
   ~ role, ~ company, ~ dates, ~ loc, ~ details,
+  # Zanders
+  Zanders[1], Zanders[2], Zanders[3], Zanders[4],
+  "Building up Zanders' capabilities in appyling machine learning and Gen AI in financial institutions.",
   # Sam Media
   Sam[1], Sam[2], Sam[3], Sam[4],
-  "Heading the central data team of 4-5 FTE's consisting of data analysts and data engineers.",
+  "Lead the central Data Team of 4-5 FTE's consisting of data analysts and data engineers.",
   Sam[1], Sam[2], Sam[3], Sam[4],
-  "Guiding data product development, coordinating team members across different squads and setting priorities.",
+  "Envisioned, developed and executed product-based data strategy.",
   Sam[1], Sam[2], Sam[3], Sam[4],
-  "Providing soft skills mentorship and guidance to team members.",
+  "Re-established Data Team's position within the company by re-building stakeholder relationships and deploying smarter reporting tools.",
+  Sam[1], Sam[2], Sam[3], Sam[4],
+  "Provided soft skills mentorship and guidance to team members.",
   # Knab
   Knab[1], Knab[2], Knab[3], Knab[4],
   "Initially joined as senior data scientist, worked as lead data scientist from March 2024.",
   Knab[1], Knab[2], Knab[3], Knab[4],
-  "Lead a team of 6-7 data scientists, and also worked on model development and productionization.",
+  "Lead and mentored a team of 6-7 data scientists, while also working on model development and deployment.",
   Knab[1], Knab[2], Knab[3], Knab[4],
-  "Deployed first machine learning models for the bank, mainly within the KYC sphere. Set up and developed the governance and technical framework for deploying more models. This was in collaboration with many parties (data engineering, data governance, business stakeholders and model risk management).",
+  "Deployed first ML models for the bankd, initially in the transaction monitoring domain.",
   Knab[1], Knab[2], Knab[3], Knab[4],
-  "Was responsible for moulding and executing the ML / AI strategy of Knab, as well as mentoring other data scientists and leading by example.",
+  "Set up and developed the governance and technical framework for deploying more ML models. Established working relationships of data science with relevant teams (data engineering, data governance, business stakeholders and model risk management).",
+    Knab[1], Knab[2], Knab[3], Knab[4],
+  "Designed and executed the ML / AI strategy of Knab.",
   # Apollo
   Apollo[1], Apollo[2], Apollo[3], Apollo[4],
-  "In a small team (4-5 FTE's) of data scientists, working on multiple projects with different stakeholders. These are fraud detection, credit risk scoring and satellite image database creation. Infrastructure environment: AWS",
+  "Worked in a team of 4-5 data scientists, across multiple projects with different stakeholders. Projects entailed fraud detection, credit risk scoring and satellite image database creation.",
   Apollo[1], Apollo[2], Apollo[3], Apollo[4],
-  "Launched and monitored multiple models in production - both batch processes and real-time applications",
+  "Launched and monitored multiple models in production. Deployments involved both batch processes and real-time applications.",
   Apollo[1], Apollo[2], Apollo[3], Apollo[4],
-  "Helping set up the way-of-working framework (Docker for local development, setting coding standards, creating/maintaining Python microservices etc.)",
+  "Set up the data science way-of-working (Docker for local development, coding standards, created/maintained Python microservices and more).",
   Apollo[1], Apollo[2], Apollo[3], Apollo[4],
-  "Optimizing existing models by including extensive unit/integration tests, speeding up ETL with Dask",
+  "Optimized and strengthened existing models by incorporating unit / integration tests and documentation for ease of onboarding.",
   # TMNL
   TMNL[1], TMNL[2], TMNL[3], TMNL[4],
-  "In multifunctional department, consisting of data scientists and anti-money laundering experts",
+  "Worked in a multifunctional department that consisted of data scientists and anti-money laundering experts.",
   TMNL[1], TMNL[2], TMNL[3], TMNL[4],
-  "Creating/maintaining two Python packages for network analytics projects: 1. efficient network traversals and 2. detecting communities within networks. Infrastructure environment: AWS",
+  "Created/maintained two Python packages for network analytics projects: 1. efficient network traversals and 2. detecting communities within networks. Both generated sample alerts later sent to shareholder banks.",
   TMNL[1], TMNL[2], TMNL[3], TMNL[4],
-  "Main linking pin with engineering teams to ensure a workable framework for model development. Actively helping with setting up a feature store and spreading good Spark practices",
+  "Main contact with engineering teams to ensure a workable framework for model development. Actively helped with setting up a feature store and enforcing Spark best practices.",
   TMNL[1], TMNL[2], TMNL[3], TMNL[4],
-  "Integrating anti-money laundering experts actively into analytics projects",
+  "Integrated anti-money laundering experts actively into advanced analytics projects.",
   TMNL[1], TMNL[2], TMNL[3], TMNL[4],
-  "Participating in high-level discussions on day-to-day and strategic topics",
+  "Participated in high-level discussions on day-to-day and strategic topics for TMNL's anti-money laundering models.",
   # ING FEC
   ING_fec[1], ING_fec[2], ING_fec[3], ING_fec[4],
-  "Part of a big team of 20-25 FTE's that develop models to detect money laundering and other illegal financial activities",
+  "Worked in the global team of data scientists that developed models to detect money laundering and other financial economic crimes.",
   ING_fec[1], ING_fec[2], ING_fec[3], ING_fec[4],
-  "Creating two Python packages for: 1. streamlined unsupervised anomaly detection and 2. extracting network features from transaction data Infrastructure environment: in-house clusters.",
+  "Lead technical validation of machine learning transaction monitoring models in ING Turkey.",
   ING_fec[1], ING_fec[2], ING_fec[3], ING_fec[4],
-  "Main machine learning domain: unsupervised anomaly detection (e.g. isolation forest, k-means, outlier variational autoencoder)",
+  "Created/maintained two Python packages for: 1. streamlined unsupervised anomaly detection and 2. extracting network features from transaction data.",
   ING_fec[1], ING_fec[2], ING_fec[3], ING_fec[4],
-  "Communicating with other end-users of the Python packages for further development",
+  "Machine learning domain focus: unsupervised anomal detection (e.g. isolation forest, k-means clustering, outlier variational autoencoder).",
   ING_fec[1], ING_fec[2], ING_fec[3], ING_fec[4],
-  "Running workshops on day-to-day usage of Docker",
+  "Organized and ran workshops on day-to-day usage of Docker.",
   ING_fec[1], ING_fec[2], ING_fec[3], ING_fec[4],
-  "Coaching trainees in data science work",
+  "Coached trainees to become data scientists.",
   # ING finance
   ING_finance[1], ING_finance[2], ING_finance[3], ING_finance[4],
-    "Part of a small team of 2-3 FTE's that service employees in Group Finance through analytics projects. All projects are centered around time series data cleaning, wrangling and forecasting. Infrastructure environment: in-house clusters",
+    "Worked in a team of 2-3 data scientists that supported employees in Group Finance. All projects were centered around time series data cleaning, wrangling and forecasting.",
   ING_finance[1], ING_finance[2], ING_finance[3], ING_finance[4],
-    "Created three R packages for time series forecasting, detecting/correcting anomalies and data exploration",
+    "Created three R packages for time series forecasting, detecting/correcting anomalies and data exploration. These R packages are open sourced and maintained by me. Click for
+  \\href{https://github.com/ing-bank/tstools}{tstools}, \\href{https://github.com/ing-bank/tsclean}{tsclean}, \\href{https://github.com/ing-bank/tsforecast}{tsforecast}",
   ING_finance[1], ING_finance[2], ING_finance[3], ING_finance[4],
-    "These R packages are open sourced and maintained by me. Click for \\href{https://github.com/ing-bank/tstools}{tstools}, \\href{https://github.com/ing-bank/tsclean}{tsclean}, \\href{https://github.com/ing-bank/tsforecast}{tsforecast}",
+    "Machine learning domain focus: time series forecasting (ARIMA, LSTM, Kalman filter).",
   ING_finance[1], ING_finance[2], ING_finance[3], ING_finance[4],
-    "Main machine learning domain: time series forecasting (ARIMA, LSTM, Kalman filter",
+    "Deployed projects via remote and Docker solutions.",
   ING_finance[1], ING_finance[2], ING_finance[3], ING_finance[4],
-    "Deploying projects via local and docker solutions",
+    "Organized and ran workshops in R, Python and statistics.",
   ING_finance[1], ING_finance[2], ING_finance[3], ING_finance[4],
-    "Running workshops and trainings in R, Python and statistics",
+    "Coached trainees to become data scientists.",
   ING_finance[1], ING_finance[2], ING_finance[3], ING_finance[4],
-    "Coaching IT trainees in data science work",
-  ING_finance[1], ING_finance[2], ING_finance[3], ING_finance[4],
-    "Engaging stakeholders to help them become more data-savvy and understand what they can (and can't) do with data science",
+    "Engaged stakeholders to help them become more data-savvy and understand what they can do effectively with data science.",
   # PhD
   phd[1], phd[2], phd[3], phd[4],
-    "Thesis title: 'The Value of (Avoiding) Malaria' (\\href{https://www.dropbox.com/s/0du7immzy1k14o1/PhD_Thesis.pdf?dl=0}{link}, graduated 2nd of May 2019)",
+    "Introduced R as a syntax to replace licensed software (Stata) for doing statistical analyses within department.",
   phd[1], phd[2], phd[3], phd[4],
-    "Supervisors: Roy Brouwer \\& Richard Tol",
-  phd[1], phd[2], phd[3], phd[4],
-    "Links to completed papers:
-    \\begin{itemize}
-    \\item Valuing malaria morbidity     (\\href{https://www.tandfonline.com/doi/full/10.1080/21606544.2019.1581094}{link})
-    \\item Preference updating in public health risk valuation (\\href{https://www.researchgate.net/publication/320234394_Preference_updating_in_public_health_risk_valuation}{link})
-    \\item Public preferences and valuation of new malaria risk (\\href{https://www.researchgate.net/publication/320234398_Public_preferences_and_valuation_of_new_malaria_risk}{link}) 
-    \\item Attitudes towards public health spending (\\href{https://www.sussex.ac.uk/webteam/gateway/file.php?name=wps-07-2019.pdf&site=24}{link}) 
-    \\end{itemize}",
-  phd[1], phd[2], phd[3], phd[4],
-    "This was financed by an EU FP7 project: HELIX (\\href{https://www.helixclimate.eu/}{link}). This involved multidisciplinary collaboration with researchers from mathematics, physics, engineering, geography and sociology. I organized and executed a field survey in Mumbai, India between March - June 2016 as part of this project. Some analyses of the data from this survey can be found on my GitHub page.",
+    "Organized and executed a field survey in Mumbai, India between March - June 2016. Trained a team of five surveyors and surveyed above 1500 residents.",
   # Teaching assistant
   teaching_assistant[1], teaching_assistant[2], teaching_assistant[3], teaching_assistant[4],
     "Courses: Statistics/Econometrics (masters level - including coding in SPSS and R), Mathematics (masters level - linear algebra and advanced calculus)"
@@ -148,6 +146,8 @@ tribble(
 # Education
 
 ```{r}
+# Define information on PhD
+PhD_info <- c("PhD in Economics", "VU University Amsterdam", "Amsterdam, The Netherlands", "Sep 2014 - May 2019")
 # Define information on Master
 MSc_info <- c("MPhil in Economics", "Tinbergen Institute", "Amsterdam/Rotterdam, The Netherlands","Sep 2012 - Aug 2014")
 # Define information on Bachelor
@@ -155,6 +155,23 @@ BSc_info <- c("BSc in Economics", "Bilkent University", "Ankara, Turkey", "Sep 2
 # Combine all information
 tribble(
     ~ degree, ~ uni, ~ loc, ~ dates, ~ details,
+    # PhD
+    PhD_info[1], PhD_info[2], PhD_info[3], PhD_info[4],
+    "Specialization: Applied micro-econometrics, environmental economics",
+    PhD_info[1], PhD_info[2], PhD_info[3], PhD_info[4],
+    "Thesis title: 'The Value of (Avoiding) Malaria' (\\href{https://www.dropbox.com/s/0du7immzy1k14o1/PhD_Thesis.pdf?dl=0}{link})",
+    PhD_info[1], PhD_info[2], PhD_info[3], PhD_info[4],
+    "Supervisors: Roy Brouwer \\& Richard Tol",
+    PhD_info[1], PhD_info[2], PhD_info[3], PhD_info[4],
+    "Links to completed papers:
+    \\begin{itemize}
+    \\item Valuing malaria morbidity     (\\href{https://www.tandfonline.com/doi/full/10.1080/21606544.2019.1581094}{link})
+    \\item Preference updating in public health risk valuation (\\href{https://www.researchgate.net/publication/320234394_Preference_updating_in_public_health_risk_valuation}{link})
+    \\item Public preferences and valuation of new malaria risk (\\href{https://www.researchgate.net/publication/320234398_Public_preferences_and_valuation_of_new_malaria_risk}{link}) 
+    \\item Attitudes towards public health spending (\\href{https://www.sussex.ac.uk/webteam/gateway/file.php?name=wps-07-2019.pdf&site=24}{link}) 
+    \\end{itemize}",
+    PhD_info[1], PhD_info[2], PhD_info[3], PhD_info[4],
+    "This was financed by an EU FP7 project: HELIX (\\href{https://www.helixclimate.eu/}{link}). This involved multidisciplinary collaboration with researchers from mathematics, physics, engineering, geography and sociology.",
     # MSc
     MSc_info[1], MSc_info[2], MSc_info[3], MSc_info[4], 
       "Specialization: Applied micro-econometrics",
