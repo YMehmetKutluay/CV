@@ -1,7 +1,7 @@
 ---
 name: "Mehmet"
 surname: "Kutluay"
-position: "Lead Data Scientist"
+position: "Data Science Manager"
 address: "Rotterdam - The Netherlands"
 phone: +31 685478120
 email: "mehkutluay@gmail.com"
